@@ -1,0 +1,53 @@
+@font-face {
+    src: url("./Karla-VariableFont_wght.ttf");
+    font-family: Karla;
+}
+
+body {
+    margin: 0;
+    background-color: #1F2937;
+    background-size: cover;
+    color: #FFFFFF;
+    font-family: Karla, Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: large;
+}
+
+h4 {
+    color: #D5D4D8;
+}
+
+p {
+    width: 180px;
+    background-color: #273549;
+    padding: 16px 86px;
+    margin: 0px 10px;
+    border-radius: 6px;
+    color: #55F991;
+    font-weight: normal;
+    text-align: center;
+}
+
+span {
+    display: block;
+    color: #55F991;
+}
+
+button {
+    background-color: #10B981;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 6px;
+    padding: 9px 17px;
+    margin: 35px 0px;
+}
+
+#main-text {
+    margin: 90px 30px 20px;
+    border-bottom: 1px solid #2F3E53;
+}
+
+#password-section {
+    margin: 0px 30px;
+    display: flex;
+}
