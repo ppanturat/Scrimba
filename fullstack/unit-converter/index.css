@@ -1,0 +1,66 @@
+@font-face {
+    src: url("/fonts/Inter-VariableFont_opsz,wght.ttf");
+    font-family: Inter;
+}
+
+body {
+    margin: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    background-color: #F4F4F4;
+}
+
+h1 {
+    margin: 0px;
+    color: #FFFFFF;
+}
+
+h3 {
+    color: #5A537B;
+    margin-top: 30px;
+}
+
+p {
+    color: #353535;
+    margin: 0px 0px 25px;
+}
+
+#hero {
+    background-color: #6943FF;
+    padding: 45px 0px 35px;
+    margin-bottom: 35px;
+}
+
+#input-el {
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    background-color: #6943FF;
+    width: 117px;
+    max-width: 211px;
+    height: 83px;
+    max-height: 83px;
+    font-size: 58px;
+    display: block;
+    margin: 35px auto 25px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 800;
+}
+
+#convert-btn {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #3D3D3D;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding: 15px 30px;
+}
+
+.container {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    margin: 22px;
+}
